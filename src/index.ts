@@ -99,5 +99,3 @@ app.use(
 https.createServer(sslOptions, app).listen(app.get('port-https'), function () {
   console.log("Express server listening on port " + app.get('port-https'));
 });
-
-app.listen(port, () => console.log(`Server listening on port ${port}`))
